@@ -9,11 +9,25 @@
 
 * Bilgi
 
+## İndirme İşlemi
+
+* Dağıtımları belli sitelerden indiririz. Bazı dağıtımların indirme siteleri; (Dağıtıma tıklayınca indirme sitesine erişeceksiniz. Eğer listede o dağıtım yoksa Google' a yazabilirsiniz.)
+
+[Ubuntu](https://ubuntu.com/download/desktop)
+[Linux Mint](https://linuxmint.com)
+[EndeavourOS](https://endeavouros.com)
 
 ## USB' ye ISO yazdırma;
 
-* dd ile ISO yazılabilir. Arama motoruna dd write ISO yazarak komutu bulabiliriz. Direkt komutu girmeyin. /dev ile başlayan yerdeki sda yı silin. Sonra oraya lsblk komutundan öğrenilebilecek, USB kodunu yazalım.
-Örneğin: sda, sen, sdc, veya nvme ile başlayan kod. (Doğru diski yani USB' nin kodunu yazmayı unutmayın)
+* Öncekikle;
+
+lsblk yazalım ve usbmizi bulalım. Bulunca başındaki kodu kopyalayın.
+
+* Sonra şunu yazalım;
+
+$ sudo dd if=archlinux-2017.iso of=/dev/ status=progress
+
+* /dev/ dan sonra oraya usb kodunu yapıştıralım. Sonra if= yazan kısımda iso' nun yolunu gösterelim. Sonra enter tuşuna basıp bekleyelim. Sonra komut bitince diğer adıma geçelim.
 
 ## Kurulum
 
