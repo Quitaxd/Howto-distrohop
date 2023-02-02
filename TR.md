@@ -14,7 +14,9 @@
 * Dağıtımları belli sitelerden indiririz. Bazı dağıtımların indirme siteleri; (Dağıtıma tıklayınca indirme sitesine erişeceksiniz. Eğer listede o dağıtım yoksa Google' a yazabilirsiniz.)
 
 [Ubuntu](https://ubuntu.com/download/desktop)
+
 [Linux Mint](https://linuxmint.com)
+
 [EndeavourOS](https://endeavouros.com)
 
 ## USB' ye ISO yazdırma;
