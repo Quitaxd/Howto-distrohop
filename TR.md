@@ -21,7 +21,7 @@
 
 ## USB' ye ISO yazdırma;
 
-* Öncekikle;
+* Öncelikle;
 
 lsblk yazalım ve usbmizi bulalım. Bulunca başındaki kodu kopyalayın.
 
